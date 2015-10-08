@@ -1,0 +1,17 @@
+{
+  "AppSettings": {
+    "SiteTitle": "ConfigTestingCouch"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-ConfigTestingCouch-48f74a60-3bce-4a22-b192-489ca39c4a61;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  },
+  "Couch": {
+    "Server": "http://www.couchbase.co.uk:8091",
+    "Bucket": "beer-sample",
+    "User": "Administrator",
+    "Password": "Password",
+    "JWTAccessToken": "JWT_TOKEN"
+  }
+}
